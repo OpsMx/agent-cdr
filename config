@@ -243,6 +243,12 @@ deploymentConfigurations:
         username: "cdr-jenkins-account1.cdr"
         password: "eyJhbGciOiJIUzI1NiIsImtpZCI6InB1YmxpYy5wZW0iLCJ0eXAiOiJKV1QifQ.eyJhIjoiY2RyIiwiaWF0IjoxNjY0MjAxMzIyLCJpc3MiOiJvcHNteCIsIm4iOiJjZHItamVua2lucy1hY2NvdW50MSIsInQiOiJqZW5raW5zIn0.lczDjkYPaqZFqNMBq3mmi23XzX4RMARnqnmw2v7NNWM"
         csrf: true
+      - name: "yuga-jenkins-account1"
+        permissions: {}
+        address: "https://opsmx-controller-controller1:9002"
+        username: "yuga-jenkins-account1.opsmx-agent"
+        password: "eyJhbGciOiJIUzI1NiIsImtpZCI6InB1YmxpYy5wZW0iLCJ0eXAiOiJKV1QifQ.eyJhIjoib3BzbXgtYWdlbnQiLCJpYXQiOjE2NjQyNjM3NTAsImlzcyI6Im9wc214IiwibiI6Inl1Z2EtamVua2lucy1hY2NvdW50MSIsInQiOiJqZW5raW5zIn0.8x5CoKcNk4_s_R207fBBiPEL_VuvS2yFggpoGS-xR_Q"
+        csrf: true
     travis:
       enabled: false
       masters: []
