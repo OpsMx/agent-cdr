@@ -243,6 +243,12 @@ deploymentConfigurations:
         username: "cdr-jenkins-account1.cdr"
         password: "eyJhbGciOiJIUzI1NiIsImtpZCI6InB1YmxpYy5wZW0iLCJ0eXAiOiJKV1QifQ.eyJhIjoiY2RyIiwiaWF0IjoxNjY0MjAxMzIyLCJpc3MiOiJvcHNteCIsIm4iOiJjZHItamVua2lucy1hY2NvdW50MSIsInQiOiJqZW5raW5zIn0.lczDjkYPaqZFqNMBq3mmi23XzX4RMARnqnmw2v7NNWM"
         csrf: true
+      - name: "jenkins-account1"
+        permissions: {}
+        address: "https://opsmx-controller-controller1:9002"
+        username: "jenkins-account1.opsmx-agent"
+        password: "eyJhbGciOiJIUzI1NiIsImtpZCI6InB1YmxpYy5wZW0iLCJ0eXAiOiJKV1QifQ.eyJhIjoib3BzbXgtYWdlbnQiLCJpYXQiOjE2NjQyNzM1MjEsImlzcyI6Im9wc214IiwibiI6ImplbmtpbnMtYWNjb3VudDEiLCJ0IjoiamVua2lucyJ9.YPUUxi1i7ZOQibNulI7W7BpZMq1AIZ0_u3lpBBGdpK4"
+        csrf: true
     travis:
       enabled: false
       masters: []
